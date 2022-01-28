@@ -1,0 +1,405 @@
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #333333,
+    #000000,
+    #505050,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #063f60;
+  background: linear-gradient(90deg, #000000a9, #1a1a1a, #2c2c2c);
+  margin: -1%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 5px black;
+  padding-top: 10px;
+}
+#nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Optima";
+  font-size: large;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+nav img {
+  width: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 15px rgb(116, 0, 0);
+}
+li:hover {
+  color: #990000;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px 10px 10px;
+}
+header img {
+  border-radius: 5px;
+  width: 1460px;
+  height: 400px;
+  box-shadow: 0px 0px 15px rgb(126, 24, 24);
+}
+hr {
+  background-color: #ffffff;
+  border-color: rgba(139, 69, 19, 0);
+  height: 10px;
+  margin: 0px;
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #7e0404,
+    #000000,
+    #7a0d0d,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#scroll {
+  display: flex;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.card {
+  font-family: "Optima";
+  font-size: larger;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.288);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.178);
+}
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+  font-family: "Optima";
+  background-color: rgba(255, 255, 255, 0.26);
+}
+#red:hover {
+  background: linear-gradient(
+    -45deg,
+    #b31616,
+    #333333,
+    #000000,
+    #8f2020,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#gold:hover {
+  background: linear-gradient(
+    -45deg,
+    #b38916,
+    #333333,
+    #000000,
+    #d49f0d,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#green:hover {
+  background: linear-gradient(
+    -45deg,
+    #28b316,
+    #333333,
+    #000000,
+    #2c4e15,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#blue:hover {
+  background: linear-gradient(
+    -45deg,
+    #1619b3,
+    #333333,
+    #000000,
+    #20508f,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#purple:hover {
+  background: linear-gradient(
+    -45deg,
+    #7416b3,
+    #333333,
+    #000000,
+    #50208f,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#cyan:hover {
+  background: linear-gradient(
+    -45deg,
+    #16b3ab,
+    #333333,
+    #000000,
+    #18c5c5,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+#white:hover {
+  background: linear-gradient(
+    -45deg,
+    #ececec,
+    #e2e2e2,
+    #000000,
+    #a0a0a0,
+    #979797
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+footer {
+  background-image: url(https://data.whicdn.com/images/353619674/original.png?t=1614714243);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 0px 0px 15px rgb(126, 24, 24);
+  font-family: "Optima";
+}
+#box2 {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+}
+.model-continer{
+    pointer-events: none;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 180vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.model-continer.show{
+pointer-events: auto;
+    opacity: 1;
+}
+
+.model {
+    color: black;
+    font-family: "Optima";
+    text-align: justify;
+    padding: 30px 50px;
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+button{
+  font-family: "Optima";
+  color: white;
+  font-size: 16px;
+  background-color: rgba(43, 43, 43, 0);
+  border-color: rgba(43, 43, 43, 0);
+}
+button:hover{
+    font-family: "Optima";
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    background-color: rgba(43, 43, 43, 0);
+    border-color: rgba(43, 43, 43, 0);
+  }
+ .model button{
+     position: relative;
+     left: 270px;
+    font-family: "Optima";
+    font-size: larger;
+    color: rgb(141, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(43, 43, 43, 0);
+    border-color: rgb(43, 43, 43);
+  }
+  .model a{
+    font-family: "Optima";
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    border-color: rgba(43, 43, 43, 0);
+  }
+  .model a:hover{
+    font-family: "Optima";
+    font-size: larger;
+    color: rgb(0, 3, 156);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    border-color: rgba(43, 43, 43, 0);
+  }
+@media screen and (max-width: 600px) {
+  #nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 5px;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Optima";
+    font-size: small;
+  }
+  nav img {
+    width: 15%;
+    margin-top: -5px;
+    box-shadow: 0px 0px 15px rgb(116, 0, 0);
+  }
+  html,
+  body {
+    margin: 0px;
+    scroll-behavior: smooth;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #063f60;
+    background: linear-gradient(90deg, #000000a9, #1a1a1a, #2c2c2c);
+    margin: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    padding-top: 10px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px 10px 10px;
+  }
+  header img {
+    border-radius: 5px;
+    width: 550px;
+    height: 150px;
+    box-shadow: 0px 0px 15px rgb(126, 24, 24);
+  }
+  .card img {
+    width: 180px;
+    height: 250px;
+  }
+  .card p{
+      font-size: 14px;
+  }
+
+  #text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    font-family: "Optima";
+    background-color: rgba(255, 255, 255, 0.26);
+  }
+  #box1 {
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  #box1 p {
+    font-size: 16px;
+  }
+  footer {
+    font-family: "Optima";
+    font-size: 12px;
+    background-size: contain;
+  }
+  .model-continer{
+    pointer-events: none;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 82vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.model {
+    color: black;
+    font-family: "Optima";
+    font-size: 10px;
+    text-align: justify;
+    padding: 30px 50px;
+    background-color: white;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.model button{
+    position: relative;
+    left: 180px;
+   font-family: "Optima";
+   font-size: larger;
+   color: rgb(141, 0, 0);
+   border-radius: 20px;
+   background-color: rgba(43, 43, 43, 0);
+   border-color: rgb(43, 43, 43);
+ }
+}
