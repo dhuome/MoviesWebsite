@@ -374,9 +374,9 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: fixed;
-    left:0;
     top: 0;
-    width: 68vh;
+    margin-left: -70px;
+    width: 100vh;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
 }
