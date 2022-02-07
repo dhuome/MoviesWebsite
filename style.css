@@ -228,71 +228,71 @@ footer {
   justify-content: start;
   color: white;
 }
-.model-continer{
-    pointer-events: none;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+.model-continer {
+  pointer-events: none;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-.model-continer.show{
-pointer-events: auto;
-    opacity: 1;
+.model-continer.show {
+  pointer-events: auto;
+  opacity: 1;
 }
 
 .model {
-    color: black;
-    font-family: "Optima";
-    text-align: justify;
-    padding: 30px 50px;
-    background-color: white;
-    width: 600px;
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgb(0, 0, 0);
+  color: black;
+  font-family: "Optima";
+  text-align: justify;
+  padding: 30px 50px;
+  background-color: white;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
 }
-button{
+button {
   font-family: "Optima";
   color: white;
   font-size: 16px;
   background-color: rgba(43, 43, 43, 0);
   border-color: rgba(43, 43, 43, 0);
 }
-button:hover{
-    font-family: "Optima";
-    text-shadow: 0 0 15px rgb(255, 255, 255);
-    background-color: rgba(43, 43, 43, 0);
-    border-color: rgba(43, 43, 43, 0);
-  }
- .model button{
-     position: relative;
-     left: 270px;
-    font-family: "Optima";
-    font-size: larger;
-    color: rgb(141, 0, 0);
-    border-radius: 20px;
-    background-color: rgba(43, 43, 43, 0);
-    border-color: rgb(43, 43, 43);
-  }
-  .model a{
-    font-family: "Optima";
-    font-size: larger;
-    color: rgb(0, 0, 0);
-    border-color: rgba(43, 43, 43, 0);
-  }
-  .model a:hover{
-    font-family: "Optima";
-    font-size: larger;
-    color: rgb(0, 3, 156);
-    text-shadow: 0 0 15px rgb(0, 0, 0);
-    border-color: rgba(43, 43, 43, 0);
-  }
+button:hover {
+  font-family: "Optima";
+  text-shadow: 0 0 15px rgb(255, 255, 255);
+  background-color: rgba(43, 43, 43, 0);
+  border-color: rgba(43, 43, 43, 0);
+}
+.model button {
+  position: relative;
+  left: 270px;
+  font-family: "Optima";
+  font-size: larger;
+  color: rgb(141, 0, 0);
+  border-radius: 20px;
+  background-color: rgba(43, 43, 43, 0);
+  border-color: rgb(43, 43, 43);
+}
+.model a {
+  font-family: "Optima";
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  border-color: rgba(43, 43, 43, 0);
+}
+.model a:hover {
+  font-family: "Optima";
+  font-size: larger;
+  color: rgb(0, 3, 156);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+  border-color: rgba(43, 43, 43, 0);
+}
 @media screen and (max-width: 600px) {
   #nav-links {
     list-style: none;
@@ -342,8 +342,8 @@ button:hover{
     width: 180px;
     height: 250px;
   }
-  .card p{
-      font-size: 14px;
+  .card p {
+    font-size: 14px;
   }
 
   #text {
@@ -367,7 +367,7 @@ button:hover{
     font-size: 12px;
     background-size: contain;
   }
-  .model-continer{
+  .model-continer {
     pointer-events: none;
     opacity: 0;
     display: flex;
@@ -379,8 +379,8 @@ button:hover{
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
-}
-.model {
+  }
+  .model {
     color: black;
     font-family: "Optima";
     font-size: 10px;
@@ -391,15 +391,15 @@ button:hover{
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(0, 0, 0);
-}
-.model button{
+  }
+  .model button {
     position: relative;
     left: 180px;
-   font-family: "Optima";
-   font-size: larger;
-   color: rgb(141, 0, 0);
-   border-radius: 20px;
-   background-color: rgba(43, 43, 43, 0);
-   border-color: rgb(43, 43, 43);
- }
+    font-family: "Optima";
+    font-size: larger;
+    color: rgb(141, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(43, 43, 43, 0);
+    border-color: rgb(43, 43, 43);
+  }
 }
